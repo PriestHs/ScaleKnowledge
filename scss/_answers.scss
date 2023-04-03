@@ -1,0 +1,97 @@
+.answers-heading {
+    padding: 119px 0px 95px 0px;
+
+    text-align: center;
+
+    background-color: $blackColor;
+}
+.answers-heading__title {
+    margin-bottom: 33px;
+
+    font-family: 'Roboto', sans-serif;
+    color: $fontColor2;
+    font-size: 30px;
+    line-height: 36px;
+}
+.answers-heading__desc {
+    color: #504F4F;
+    font-size: 11px;
+    line-height: 16px;
+}
+.answers-content-wrapper {
+    overflow: hidden;
+}
+.answers-content {
+    margin: 0 auto;
+    max-width: 1200px;
+    height: 800px;
+    // overflow: hidden;
+
+    display: flex;
+    justify-content: center;
+    column-gap: 60px;
+}
+.answers-content__img {
+    max-width: 720px;
+    flex-shrink: 0;
+
+    display: flex;
+    justify-content: center;
+    img {
+        margin-top: 250px;
+        max-width: 600px;
+        height: 200px;
+    }
+}
+.answers-content__info {
+    position: relative;
+    padding: 165px 0px 0px 60px;
+    width: 100%;
+
+    flex-shrink: 1;
+
+}
+.answers-content__info-wrapper {
+    width: 200%;
+    height: 100%;
+    z-index: -1;
+    position: absolute;
+    left: 0;
+    right: -100px;
+    top: 0;
+    background-color: $fontColor2;
+}
+.answers-content__title {
+    max-width: 350px;
+    margin-bottom: 90px;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    line-height: 48px;
+}
+.answers-content__text {
+    max-width: 322px;
+    margin-bottom: 18px;
+
+    font-size: 17px;
+    line-height: 27px;
+}
+.answers-content__photo {
+    position: relative;
+    max-height: 350px;
+    overflow: hidden;
+    p {
+        max-width: 350px;
+        position: absolute;
+        left: 0;
+        top: 28px;
+
+        font-size: 12px;
+        line-height: 16px;
+        color: #504F4F;
+    }
+    img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+}

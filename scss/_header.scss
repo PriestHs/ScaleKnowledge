@@ -1,0 +1,40 @@
+.header {
+    width: 1071px;
+    margin: 0 auto;
+    padding: 78px 0px 136px;
+}
+.header__images-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 48px;
+
+    margin-bottom: 48px;
+}
+.header__img {
+    img {
+        border-radius: 12px;
+    }
+
+}
+.header__title {
+    margin-bottom: 57px;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 142px;
+    line-height: 160px;
+}
+.header__text {
+    max-width: 425px;
+    margin-bottom: 47px;
+
+    font-size: 18px;
+    line-height: 27px;
+}
+.header__btn {
+    a {
+        color: $blackColor;
+
+        background-color: #C6F572;
+    }
+}
